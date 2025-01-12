@@ -172,9 +172,10 @@ const BitcoinChart = () => {
             <Area
               type="monotone"
               dataKey="price"
-              stroke="#0052FF"
-              strokeWidth={2}
+              stroke="#0052FF" // Make sure the line is blue or a visible color
+              strokeWidth={3} // Increased stroke width for visibility
               fill="url(#colorPrice)"
+              fillOpacity={0.2} // Make sure the fill opacity is visible
             />
           </AreaChart>
         </ResponsiveContainer>
