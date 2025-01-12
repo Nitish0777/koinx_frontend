@@ -31,7 +31,7 @@ The application uses the following CoinGecko API endpoints:
 
 ```bash
 # Clone the repository
-git clone [your-repo-url]
+git clone https://github.com/Nitish0777/koinx_frontend.git
 
 # Install dependencies
 npm install
